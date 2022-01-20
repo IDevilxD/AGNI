@@ -10,3 +10,5 @@ else:
     os.system(f"python -m http.server {port} --bind {ip}")
     print("Started http server successfully")
     print(f"Link: http://{ip}:{port}")
+  except:
+    print("Error: Python not installed or ip and port given wrong")
