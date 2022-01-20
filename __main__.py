@@ -13,3 +13,7 @@ while running:
   try:
     commamd = s_txt[0]
     print("Commamd: ",commamd)
+  except:
+    print("Error: No commamd detected")
+    pass
+    
