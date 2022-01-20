@@ -6,7 +6,7 @@ def do(command):
 usr = open("/data/data/com.termux/files/home/AGNI/db/usr.txt","r")
 com = open("/data/data/com.termux/files/home/AGNI/db/com.txt","r")
 
-running = Ture
+running = True
 while running:
   raw_txt = input(f"•{usr}@{com}:~ ")
   s_txt = raw_text.split(" ")
