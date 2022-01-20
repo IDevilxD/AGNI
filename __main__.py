@@ -14,8 +14,8 @@ while running:
   raw_txt = input(f"•{usr.read}@{com.read}:~ ")
   s_txt = raw_txt.split(" ")
   try:
-    commamd = s_txt[0]
-    print("Commamd: ",commamd)
+    command = s_txt[0]
+    print("Commamd: ",command)
   except:
     print("Error: No commamd detected")
     pass
