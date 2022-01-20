@@ -1,7 +1,7 @@
 import os
 
 def do(command):
-  os.system(commamd)
+  os.system(command)
 
 usr = open("/data/data/com.termux/files/home/AGNI/db/usr.txt","r")
 com = open("/data/data/com.termux/files/home/AGNI/db/com.txt","r")
