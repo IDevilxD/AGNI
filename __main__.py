@@ -28,6 +28,8 @@ while running:
     if command == "clear":
       do("clear")
     if command in termux_cmd:
+      pass
+    else:
       print("Type: Non-termux command")
       do(f"cd plugin && python {command}")
   except:
