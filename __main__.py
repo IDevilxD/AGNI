@@ -25,8 +25,12 @@ while running:
       pass
     if command == "update":
       do("cd $HOME && rm -rf AGNI && git clone https://github.com/IDevilxD/AGNI")
+    else:
+      pass
     if command == "clear":
       do("clear")
+    else:
+      pass
     if command in termux_cmd:
       pass
     else:
