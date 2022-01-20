@@ -1,13 +1,14 @@
 import os
+from . import *
 
 def do(command):
   os.system(command)
 
-v1 = open("/data/data/com.termux/files/home/AGNI/db/usr.txt","r")
-v2 = open("/data/data/com.termux/files/home/AGNI/db/com.txt","r")
+#v1 = open("/data/data/com.termux/files/home/AGNI/db/usr.txt","r")
+#v2 = open("/data/data/com.termux/files/home/AGNI/db/com.txt","r")
 
-usr = v1.read()
-com = v2.read()
+#usr = v1.read()
+#com = v2.read()
 
 running = True
 while running:
