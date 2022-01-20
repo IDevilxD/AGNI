@@ -26,7 +26,7 @@ while running:
     do("cd $HOME && rm -rf AGNI && git clone https://github.com/IDevilxD/AGNI")
   if command == "clear":
     do("clear")
-  if command not in termux_cmd:
+  if command in termux_cmd:
     print("Type: Non-termux command")
-    pass
+    do(f"cd plugin && python {command}")
     
