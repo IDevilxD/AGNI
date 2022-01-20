@@ -1,2 +1,1 @@
-import os
-os.system("exit")
+quit()
