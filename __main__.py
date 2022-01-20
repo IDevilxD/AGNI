@@ -7,7 +7,7 @@ while check:
   if password == passw:
     break
   
-
+print(logo)
 
 def do(command):
   os.system(command)
@@ -37,6 +37,7 @@ while running:
       pass
     if command == "clear":
       do("clear")
+      print(logo)
     else:
       pass
     if command in termux_cmd:
