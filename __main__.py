@@ -37,7 +37,7 @@ while running:
     else:
       print("Type: AGNI")
       try:
-        do(f"cd plugins && python {command}.py")
+        do(f"cd /data/data/com.termux/files/home/AGNI/plugins && python {command}.py")
       except:
         print("Command {command} not found")
   except:
