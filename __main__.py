@@ -10,6 +10,8 @@ def do(command):
 #usr = v1.read()
 #com = v2.read()
 
+termux_cmd = ["update","clear"]
+
 running = True
 while running:
   raw_txt = input(f"•{usr}@{com}:~ ")
@@ -24,4 +26,6 @@ while running:
     do("cd $HOME && rm -rf AGNI && git clone https://github.com/IDevilxD/AGNI")
   if command == "clear":
     do("clear")
+  if command not in termux_cmd:
+    pass
     
