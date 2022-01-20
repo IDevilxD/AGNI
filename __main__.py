@@ -8,8 +8,8 @@ com = open("/data/data/com.termux/files/home/AGNI/db/com.txt","r")
 
 running = True
 while running:
-  raw_txt = input(f"•{usr}@{com}:~ ")
-  s_txt = raw_text.split(" ")
+  raw_txt = input(f"•{usr.read}@{com.read}:~ ")
+  s_txt = raw_txt.split(" ")
   try:
     commamd = s_txt[0]
     print("Commamd: ",commamd)
