@@ -30,4 +30,6 @@ while running:
     if command in termux_cmd:
       print("Type: Non-termux command")
       do(f"cd plugin && python {command}")
+  except:
+    pass
     
