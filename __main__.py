@@ -3,8 +3,8 @@ import os
 def do(command):
   os.system(commamd)
 
-usr = open("db/usr.txt","r")
-com = open("db/com.txt","r")
+usr = open("/data/data/com.termux/files/home/AGNI/db/usr.txt","r")
+com = open("/data/data/com.termux/files/home/AGNI/db/com.txt","r")
 
 running = Ture
 while running:
