@@ -5,7 +5,7 @@ if ip == "lh":
   os.system(f"python -m http.server {port}")
   print("Started http server successfully")
   print(f"Link: http://localhost:{port}")
-else
+else:
   try:
     os.system(f"python -m http.server {port} --bind {ip}")
     print("Started http server successfully")
