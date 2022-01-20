@@ -5,13 +5,13 @@ def do(command):
 
 usr = open("/data/data/com.termux/files/home/AGNI/db/usr.txt","r")
 com = open("/data/data/com.termux/files/home/AGNI/db/com.txt","r")
-print(usr.read)
-print(com.read)
+print(usr.text)
+print(com.text)
 
 
 running = True
 while running:
-  raw_txt = input(f"•{usr.read}@{com.read}:~ ")
+  raw_txt = input(f"•{usr}@{com}:~ ")
   s_txt = raw_txt.split(" ")
   try:
     command = s_txt[0]
