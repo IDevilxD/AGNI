@@ -27,5 +27,6 @@ while running:
   if command == "clear":
     do("clear")
   if command not in termux_cmd:
+    print("Type: Non-termux command")
     pass
     
