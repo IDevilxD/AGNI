@@ -36,7 +36,7 @@ while running:
       pass
     else:
       print("Type: AGNI")
-      do(f"cd plugins && python {command}")
+      do(f"cd plugins && python {command}.py")
   except:
     pass
     
