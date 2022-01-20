@@ -3,7 +3,7 @@ try:
   import requests as r
 except:
   os.system("pip install requests")
-  import requesr.get r
+  import requesr as r
 link=input("Enter link: ")
 o = r.get(link)
 print(o)
