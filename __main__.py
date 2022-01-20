@@ -3,11 +3,11 @@ import os
 def do(command):
   os.system(command)
 
-usr = open("/data/data/com.termux/files/home/AGNI/db/usr.txt","r")
-com = open("/data/data/com.termux/files/home/AGNI/db/com.txt","r")
-print(usr.text)
-print(com.text)
+v1 = open("/data/data/com.termux/files/home/AGNI/db/usr.txt","r")
+v2 = open("/data/data/com.termux/files/home/AGNI/db/com.txt","r")
 
+usr = v1.read()
+com = v2.read()
 
 running = True
 while running:
