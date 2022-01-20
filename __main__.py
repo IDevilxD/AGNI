@@ -36,7 +36,10 @@ while running:
       pass
     else:
       print("Type: AGNI")
-      do(f"cd plugins && python {command}.py")
+      try:
+        do(f"cd plugins && python {command}.py")
+       except:
+        print("Command {command} not found")
   except:
     pass
     
