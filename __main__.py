@@ -22,4 +22,6 @@ while running:
     pass
   if command == "update":
     do("cd $HOME && rm -rf AGNI && git clone https://github.com/IDevilxD/AGNI")
+  if command == "clear":
+    do("clear")
     
