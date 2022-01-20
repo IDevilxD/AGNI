@@ -32,9 +32,10 @@ while running:
     else:
       pass
     if command in termux_cmd:
+      print("Type: Termux")
       pass
     else:
-      print("Type: Non-termux command")
+      print("Type: AGNI")
       do(f"cd plugin && python {command}")
   except:
     pass
