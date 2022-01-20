@@ -1,5 +1,5 @@
 import os
-requests as r
+import requests as r
 
 except:
 	os.system("pip install requests")
