@@ -3,7 +3,7 @@ from DB import *
 
 file = open("/data/data/com.termux/files/home/AGNI/pass","r")
 passw = file.read()
-check = Ture
+check = True
 while check:
   password = input("Enter your password: ")
   if password == passw:
