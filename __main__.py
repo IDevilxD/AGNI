@@ -1,5 +1,5 @@
 import os
-from . import *
+from DB import *
 
 def do(command):
   os.system(command)
