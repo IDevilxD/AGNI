@@ -14,19 +14,20 @@ termux_cmd = ["update","clear"]
 
 running = True
 while running:
-  raw_txt = input(f"•{usr}@{com}:~ ")
-  s_txt = raw_txt.split(" ")
   try:
-    command = s_txt[0]
-    print("Commamd: ",command)
-  except:
-    print("Error: No commamd detected")
-    pass
-  if command == "update":
-    do("cd $HOME && rm -rf AGNI && git clone https://github.com/IDevilxD/AGNI")
-  if command == "clear":
-    do("clear")
-  if command in termux_cmd:
-    print("Type: Non-termux command")
-    do(f"cd plugin && python {command}")
+    raw_txt = input(f"•{usr}@{com}:~ ")
+    s_txt = raw_txt.split(" ")
+    try:
+      command = s_txt[0]
+      print("Commamd: ",command) 
+    except:
+      print("Error: No commamd detected")
+      pass
+    if command == "update":
+      do("cd $HOME && rm -rf AGNI && git clone https://github.com/IDevilxD/AGNI")
+    if command == "clear":
+      do("clear")
+    if command in termux_cmd:
+      print("Type: Non-termux command")
+      do(f"cd plugin && python {command}")
     
