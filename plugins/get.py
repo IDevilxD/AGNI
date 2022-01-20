@@ -1,18 +1,14 @@
 import os
-import requests as r
-
+try:
+  import requests as r
 except:
-	os.system("pip install requests")
-	import requesr.get r
+  os.system("pip install requests")
+  import requesr.get r
 link=input("Enter link: ")
-
 o = r.get(link)
-
-point(o)
-
+print(o)
 next=input("Want text? [y/n]: ")
-
 if next == "y":
-	print(o.text)
+  print(o.text)
 else:
-	pass
+  pass
