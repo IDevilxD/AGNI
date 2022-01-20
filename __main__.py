@@ -1,6 +1,16 @@
 import os
 from DB import *
 
+file = open("/data/data/com.termux/files/home/AGNI/pass","r")
+passw = file.read()
+check = Ture
+while check:
+  password = input("Enter your password: ")
+  if password == passw:
+    break
+  
+
+
 def do(command):
   os.system(command)
 
