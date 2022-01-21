@@ -65,6 +65,8 @@ if to == "y":
           module = s_txt[2]
           if opt == "install":
             do(f"cd .storage && pip install virtualenv && virtualenv py-op && ./py-op active && pip install {module}")
+        except:
+          pass
     except:
       pass
     
