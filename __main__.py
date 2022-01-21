@@ -19,7 +19,7 @@ def do(command):
 #com = v2.read()
 
 os.environ["USR"] = "usr"
-os.eviron["COM"] = "system"
+os.environ["COM"] = "system"
 
 usr = os.getenv["USR"]
 com = os.getenv["COM"]
