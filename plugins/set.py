@@ -1,3 +1,4 @@
+import os
 print("""
 Vars you can change:-
 1. USR [your name]
