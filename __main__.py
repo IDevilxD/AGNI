@@ -18,6 +18,8 @@ def do(command):
 #usr = v1.read()
 #com = v2.read()
 
+usr = os.getenv["USR"]
+com = os.getenv["COM"]
 termux_cmd = ["update","clear"]
 
 running = True
