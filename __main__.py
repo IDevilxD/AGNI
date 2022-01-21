@@ -69,4 +69,14 @@ if to == "y":
           pass
     except:
       pass
+else:
+  pass
+if to == "n":
+  try:
+    import virtualenv
+  except:
+    if os.path.exists("/data/data/com.termux/files/home/AGNI/Agni") == False:
+      do("pip install virtualenv && cd /data/data/com.termux/files/home/AGNI/ && virtualenv Agni && cd Agni && source activate")
+    else:
+      do("cd /data/data/com.termux/files/home/AGNI/Agni && source activate")
     
