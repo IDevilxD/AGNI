@@ -55,7 +55,7 @@ while running:
       except:
         print("Command {command} not found")
     if commamd == "agni":
-      try;
+      try:
         opt = s_txt[1]
         module = s_txt[2]
         if opt == "install":
