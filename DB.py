@@ -1,7 +1,7 @@
 import os
 
-usr = "usr"
-com = "system"
+os.environ["USR"] = "usr"
+os.environ["COM"] = "system"
 logo = """
 ╭━━━┳━━━┳━╮╱╭┳━━╮
 ┃╭━╮┃╭━╮┃┃╰╮┃┣┫┣╯
