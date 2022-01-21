@@ -21,8 +21,8 @@ def do(command):
 os.environ["USR"] = "usr"
 os.environ["COM"] = "system"
 
-usr = os.environ.get["USR"]
-com = os.environ.get["COM"]
+usr = os.environ.get("USR")
+com = os.environ.get("COM")
 termux_cmd = ["update","clear"]
 
 running = True
