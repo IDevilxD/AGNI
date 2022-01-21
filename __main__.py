@@ -54,7 +54,7 @@ if to == "y":
         print("Type: Termux")
         pass
       else:
-      print("Type: AGNI")
+        print("Type: AGNI")
         try:
           do(f"cd /data/data/com.termux/files/home/AGNI/plugins && python {command}.py")
         except:
