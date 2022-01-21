@@ -54,6 +54,12 @@ while running:
         do(f"cd /data/data/com.termux/files/home/AGNI/plugins && python {command}.py")
       except:
         print("Command {command} not found")
+    if commamd == "agni":
+      try;
+        opt = s_txt[1]
+        module = s_txt[2]
+        if opt == "install":
+          do(f"cd .storage && pip install virtualenv && virtualenv py-op && ./py-op active && pip install {module}")
   except:
     pass
     
