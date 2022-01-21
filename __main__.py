@@ -73,13 +73,13 @@ else:
   try:
     import virtualenv
     if os.path.exists("/data/data/com.termux/files/home/AGNI/Agni") == False:
-      do("pip install virtualenv && cd /data/data/com.termux/files/home/AGNI/ && virtualenv Agni && cd Agni && source activate")
+      do("pip install virtualenv && cd /data/data/com.termux/files/home/AGNI/ && virtualenv Agni && cd Agni && cd bin && source activate")
     else:
-      do("cd /data/data/com.termux/files/home/AGNI/Agni && source activate")
+      do("cd /data/data/com.termux/files/home/AGNI/Agni/bin && source activate")
   except:
     do("pip install virtualenv")
     if os.path.exists("/data/data/com.termux/files/home/AGNI/Agni") == False:
-      do("pip install virtualenv && cd /data/data/com.termux/files/home/AGNI/ && virtualenv Agni && cd Agni && source activate")
+      do("pip install virtualenv && cd /data/data/com.termux/files/home/AGNI/ && virtualenv Agni && cd Agni && cd bin && source activate")
     else:
-      do("cd /data/data/com.termux/files/home/AGNI/Agni && source activate")
+      do("cd /data/data/com.termux/files/home/AGNI/Agni/bin && source activate")
     
