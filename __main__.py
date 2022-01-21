@@ -70,8 +70,6 @@ if to == "y":
     except:
       pass
 else:
-  pass
-if to == "n":
   try:
     import virtualenv
   except:
